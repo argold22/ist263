@@ -1,0 +1,30 @@
+body {background-color: #F7EBF0;
+        color: #6D7775;}
+a:link {color:#EAA0BD;}
+h1 {color: #82615D;}
+nav {background-color: #8EEFD7;
+        padding: 10px;
+        margin-bottom: 100px;}
+nav a {color: #EAA0BD;}
+nav a:hover {background-color: #F7EBF0;}
+.quote {float:right;}
+
+.address {float: left; margin-right: 60px;}
+.clearfloat {clear:both;}
+
+
+.secondrow {display: flex;
+                background-color: #FFFFFF; border-radius: 2em;
+               }
+.map, .form {margin: 10px}
+.map {flex: 1; padding-left: 100px;}
+.form {flex: 1;}
+
+
+.fbrow div {background-color: #FFFFFF; border-radius: 2em;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;}
+
+
+    
