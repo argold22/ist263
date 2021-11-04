@@ -1,64 +1,67 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name= "vieport" content="width-device-width, initial-scale=1.0">
-        <title>Contact</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit 10 Notes Responsive Design</title>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            .row1 { 
+                padding: 80px;
+                margin-top: 40px;
+                display:flex;
+                flex-wrap:wrap; /*allows columns to wrap into a second or third row when screens not wide enough */
+                /* this won't do anything without sizing columns ours uses flex:1 */
+            }
+            .row1 div { /* this is a descendant selector, it selects div children inside .row1 */
+                padding: 40px;
+                flex: 1;
+
+            }
+            .banner {width: 100%;} /* used for a large image to scale to width */
+            .bannersmall {max-width: 100%;} /* use it for a smaller imgage to scale */
+            /* Both of these need to be inside a block container (div, article, etc.)*/
+            @media only screen and (max-width: 600px) {
+            body {background-color: orange;}
+            .box3 {display:none;} /* display none removes things from screen */
+            }
+            /* ^ from 0-600px we will apply the orange background */
+            @media only screen and (min-width: 1000px) {
+                body {background-color:blue;}
+            /* ^ from 1000-infinity we will apply the blue backgroun */
+            }
+        </style>
     </head>
+    <body>
 
+        <h1>Flexbox</h1>
 
-<body>
-    <nav>
-        <a href="index.html" target="_blank">Home</a> |
-        <a href="skills.html" target="_blank">Skills</a> |
-        <a href="contact.html" target="_blank">Contact</a>
-    </nav>
-    <h1>Contact</h1>
-    
-    <div class="fbrow">
-        <div class="address">
-            Abigail Goldberg
-             <br>417 Comstock Ave
-             <br> Syracuse, NY 13210
+        <div>
+        <!-- large width banner image -->
+        <img src="https://laferger.github.io/ist263/images/forever_orange.jpg" alt="large campus banner" class="banner">
         </div>
-        
-         <div class="email">
-            <a href="mailto:agoldb09@syr.edu">Abigail Goldberg's Email </a>
-            <br><a href="https://www.linkedin.com/in/abigailgoldberg/"> My LinkedIn Profile </a>
-            <a href="https://www.linkedin.com/in/abigailgoldberg/"> <img src="../images/LI-Logo-sized.png" alt="LinkedIn Logo"> </a>
-            <div class="clearfloat"></div>
-        </div>
-    </div>
-    
-    <br><br>
 
-    <div class="secondrow">
-        <div class="map">
-            <a href="https://www.google.com/maps/place/417+Comstock+Ave,+Syracuse,+NY+13210/@43.0424131,-76.138761,15z/data=!3m1!4b1!4m5!3m4!1s0x89d9f30af7181d95:0x58d5a4c398db10ad!8m2!3d43.0424134!4d-76.1300277"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11663.813389826977!2d-76.1387610061667!3d43.042413067983254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30af7181d95%3A0x58d5a4c398db10ad!2s417%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631802195594!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </a>
-        </div>
-        <div class="form">
-            <br><br> <form action="mailto:agoldb09syr.edu" method="POST">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fulln">
-            <br><br>
-  
-            <label for="questions">Questions:</label>
-            <textarea id="questions" name="complaints">Write your questions here</textarea>
-            <br><br>
+        <div>
+        <!-- smaller width banner image -->
+        <img src="https://laferger.github.io/ist263/images/forever_orange_small.jpg" alt="small campus banner" class="bannersmall">
+         </div>
 
-            <label for="home">Where are you from?</label>
-            <select id="home" name="home"> 
-            <option value="northeast">Northeast</option>
-            <option value="midwest">Midwest</option>
-            <option value="south">South</option>
-            <option value="west">West</option>
-            </select>
-            <br><br>
-
-            <input type="submit" value="Send My Responses">
-            </form>
+        <!-- this row is coming from https://www.syracuse.edu/about/ -->
+        <div class="row1">
+            <div class="box1">
+                <img src="https://laferger.github.io/ist263/images/eighty-percent-numeral-800x533.png" alt="80 percent"><br>
+                <p>80% of Syracuse University students received some form of financial support totaling more than $414 million (2019-2020 data)</p>
+            </div>
+            <div class="box2">
+                <img src="https://laferger.github.io/ist263/images/eighty-seven-percent-800x533.png" alt="80 percent">
+                <p>87% placement outcome (Graduates in full-and part-time positions, military service, volunteer or service programs, and graduate school.)</p>
+            </div>
+            <div class="box3">
+                <img src="https://laferger.github.io/ist263/images/ninety-percent-800x533.png" alt="80 percent">
+                <p>Positions related to Career Goals</p>
+            </div>
         </div>
-    </div>
-</body>
+
+    </body>
 </html>
