@@ -50,3 +50,14 @@ aside {background-color:#8EEFD7; border-radius: 1em;
         padding-right: 50px;}
 
 
+.banner {max-width: 100%;}
+
+@media only screen and (max-width: 600px) {
+        a {display: block}
+        a {padding-top: 10px;
+        padding-bottom: 10px}
+        span {display:none}
+}
+
+
+
