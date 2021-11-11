@@ -1,0 +1,68 @@
+body {background-color: #F7EBF0;
+        color: #6D7775;}
+a:link {color:#EAA0BD;}
+h1 {color: #82615D;}
+nav {background-color: #8EEFD7;
+        padding: 10px;
+        margin-bottom: 100px;}
+nav a {color: #EAA0BD;}
+nav a:hover {background-color: #F7EBF0;}
+.quote {float:right;}
+
+.address {float: left; margin-right: 60px;}
+.clearfloat {clear:both;}
+
+
+.secondrow {display: flex;
+                background-color: #FFFFFF; border-radius: 2em;
+                flex-wrap: wrap;
+               }
+.map, .form {margin: 10px}
+.map {flex: 1; padding-left: 100px;}
+.form {flex: 1;}
+
+
+.fbrow div {background-color: #FFFFFF; border-radius: 2em;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;}
+
+.skillstitle {display: flex;
+        justify-content: center;}
+
+.mainskills {display: flex;}
+
+aside {background-color:#8EEFD7; border-radius: 1em; 
+        padding-left: 15px;
+        padding-bottom: 15px;}
+
+.flexbox2 {display: flex;}
+
+
+.mainskills {flex: 75%;
+        justify-content: space-between;
+        padding-top: 70px;}
+
+.other {flex:25%;
+        padding-left:30px}
+
+
+.content {padding-left: 50px;
+        padding-right: 50px;}
+
+
+.banner {max-width: 100%;}
+
+@media only screen and (max-width: 600px) {
+        a {display: block}
+        a {padding-top: 10px;
+        padding-bottom: 10px}
+        span {display:none}
+}
+
+#skip {position: absolute;
+        left: -999px;}
+#skip:focus {
+        left: 10px;}
+
+
