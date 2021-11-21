@@ -33,7 +33,7 @@ h2 {margin-left: 60px;
 .clintontext, .jackstext, .bageltext, .shootext {padding: 30px}
 
 @media only screen and (max-width: 600px) {
-    .clinton, .jacks, .bagel, .shoo {display: block;}
+    .clinton, .jacks, .bagel, .shoo {flex-wrap:wrap;}
     nav a {display: block;}
 }
 
