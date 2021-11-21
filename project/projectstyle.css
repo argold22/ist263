@@ -20,8 +20,8 @@ a:visited {color:#4287f5;}
 a:link {color: #082340;}
 
 .clinton, .jacks, .bagel, .shoo {display:flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
     justify-content: space-between;}
 
 .pancakes, .jacksimage, .bagelimage, .shooimage {max-width: 100%; flex: 1;}
