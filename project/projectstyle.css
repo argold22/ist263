@@ -1,0 +1,39 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #413f3d;
+    background-color: #f2f1ef;
+    font-size: 100%;
+    padding: 24px;}
+
+
+
+h1 {text-align: center;
+color: #194F92;
+margin-bottom: 50px;}
+
+nav {text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 50px;}
+
+a:hover {background-color:#edf6ff;}
+a:visited {color:#4287f5;}
+a:link {color: #082340;}
+
+.clinton, .jacks, .bagel, .shoo {display:flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;}
+
+
+h2 {margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    color:#36a1d4;}
+
+.clintontext, .jackstext, .bageltext, .shootext {padding: 30px}
+
+@media only screen and (max-width: 600px) {
+    .clinton, .jacks, .bagel, .shoo {display: block;}
+    nav a {display: block;}
+}
+
