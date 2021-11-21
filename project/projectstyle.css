@@ -24,6 +24,8 @@ a:link {color: #082340;}
     margin-right: 30px;
     justify-content: space-between;}
 
+.pancakes, .jacksimage, .bagelimage, .shooimage {width: 100%;}
+
 
 h2 {margin-left: 60px;
     margin-right: 60px;
@@ -35,5 +37,11 @@ h2 {margin-left: 60px;
 @media only screen and (max-width: 600px) {
     .clinton, .jacks, .bagel, .shoo {flex-wrap:wrap;}
     nav a {display: block;}
+    span {display:none;}
+    .pancakes, .jacksimage, .bagelimage, .shooimage {width: 300px;}
 }
 
+#skip {position: absolute;
+    left: -10000px;}
+#skip:focus {
+    left: 10px;}

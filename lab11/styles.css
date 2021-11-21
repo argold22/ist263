@@ -60,10 +60,11 @@ aside {background-color:#d2f9ef; border-radius: 1em;
         a {padding-top: 10px;
         padding-bottom: 10px}
         span {display:none}
+        
 }
 
 #skip {position: absolute;
-        left: -999px;}
+        left: -10000px;}
 #skip:focus {
         left: 10px;}
 
