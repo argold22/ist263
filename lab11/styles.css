@@ -3,6 +3,7 @@ body {background-color: #F7EBF0;
 a:link {color:#7d1c43
         ;}
 h1 {color: #82615D;}
+h1, h2 {font-family: 'Satisfy', cursive;}
 nav {background-color: #d2f9ef;
         padding: 10px;
         margin-bottom: 100px;}
