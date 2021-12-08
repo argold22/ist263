@@ -24,9 +24,10 @@ a:link {color: #082340;}
     margin-right: 60px;
     justify-content: space-between;}
 
-.pancakes, .jacksimage, .bagelimage, .shooimage, .plantaimage, .pecoraimage, .lolaimage, .carboneimage {max-width: 100%; flex: 1;}
+.pancakes, .jacksimage, .bagelimage, .shooimage, .plantaimage, .pecoraimage, .lolaimage, .carboneimage, .city, .highline, .bridge, .eataly {max-width: 100%; flex: 1;}
 .clintontext, .jackstext, .bageltext, .shootext, .plantatext, .pecoratext, .lolatext, .carbonetext {padding: 30px;}
 
+.hometext {display:flex;}
 
 h2 {margin-left: 60px;
     margin-right: 60px;
