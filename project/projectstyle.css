@@ -19,13 +19,13 @@ a:hover {background-color:#edf6ff;}
 a:visited {color:#4287f5;}
 a:link {color: #082340;}
 
-.clinton, .jacks, .bagel, .shoo {display:flex;
+.clinton, .jacks, .bagel, .shoo, .planta, .pecora, .lola, .carbone {display:flex;
     margin-left: 60px;
     margin-right: 60px;
     justify-content: space-between;}
 
-.pancakes, .jacksimage, .bagelimage, .shooimage {max-width: 100%; flex: 1;}
-.clintontext, .jackstext, .bageltext, .shootext {padding: 30px;}
+.pancakes, .jacksimage, .bagelimage, .shooimage, .plantaimage, .pecoraimage, .lolaimage, .carboneimage {max-width: 100%; flex: 1;}
+.clintontext, .jackstext, .bageltext, .shootext, .plantatext, .pecoratext, .lolatext, .carbonetext {padding: 30px;}
 
 
 h2 {margin-left: 60px;
